@@ -1,0 +1,398 @@
+@charset "utf-8";
+
+ /*  Copyright 2014  Marc-André Larivière  (email : marc@smellmykitchen.com)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/***********************************************************/
+/*
+/* ADMIN PANELS
+/*
+/***********************************************************/
+
+.rewr {
+	width: 900px;	
+}
+
+.rewr .donate {
+	margin-top: 20px;	
+}
+
+.rewr .menu-top {
+	margin-bottom: 6px;	
+}
+
+.rewr .menu-top .menu-left {
+	float: left;
+	list-style: none;
+	margin-bottom: 2px;
+	min-width: 10px;
+}
+
+.rewr .menu-top .menu-left li {
+	display: inline-block;
+	margin: 0 4px 0 0;
+}
+
+.rewr .menu-top .menu-right {
+	float: right;
+	list-style: none;
+	margin-bottom: 2px;
+}
+
+.rewr .menu-top .menu-right li {
+	display: inline-block;
+	margin: 0 4px 0 0;
+}
+
+/***/
+/*
+/* TABLES
+/*
+/***/
+
+.rewr table {
+	border: 1px solid #bebebe;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.rewr table .col-small {
+	width: 60px;
+}
+
+.rewr table .col-medium {
+	width: 200px;
+}
+
+.rewr table .col-large {
+	width: 500px;	
+}
+
+.rewr thead {
+	text-align: left;	
+}
+
+.rewr thead tr {
+	border-bottom: 1px solid #cecece;
+}
+
+.rewr td, .rewr th {
+	padding: 4px;	
+}
+
+.rewr tbody tr:nth-child(even) {
+	background-color: #E3E3E3;
+}
+
+.rewr tbody tr:nth-child(odd) {
+	background-color: #EBEBEB;
+}
+
+.rewr tbody tr:hover {
+	background-color: #F3F3F3;
+}
+
+.rewr .highlight {
+	background-color: #F5FAA0 !important;	
+}
+
+/***/
+/*
+/* RECIPE EDITOR
+/*
+/***/
+
+.rewr #editor {
+	background-color: #f7f7f7;
+	border: 1px solid #bebebe;
+}
+
+.rewr #editor .inner {
+	padding: 20px 6px;
+}
+
+
+.rewr #editor .buttons {
+	background-color: #eeeeee;
+	border-top: 1px solid #bebebe;
+	padding: 6px;
+	text-align: right;
+}
+
+.rewr #editor .button {
+	margin: 0 10px;	
+}
+
+.rewr #editor input {
+	margin: 2px 0;	
+}
+
+.rewr #editor span.inrow-label {
+	margin-left: 40px;	
+}
+
+.rewr #editor input.imageuploadpath {
+	width: 424px;
+}
+
+.rewr #editor .description {
+	vertical-align: top;
+	width: 500px;
+	height: 76px;
+}
+
+.rewr #editor .note {
+	vertical-align: top;
+	width: 500px;
+	height: 100px;
+}
+
+.rewr #editor label.edit {
+	display: inline-block;
+	margin-right: 6px;
+	text-align: right;
+	width: 100px;
+}
+
+.rewr #editor .image-display {
+	background-color: green;
+	float: right;
+	width: 250px;
+	height: 250px;
+}
+
+.rewr #editor .fixed-info {
+	background-color: #eeeeee;
+	border-bottom: 1px solid #bebebe;
+	padding: 6px;
+}
+
+.rewr #editor .col50-left {
+	display: inline-block;
+	width: 315px;
+}
+
+.rewr #editor .col30 {
+	display: inline-block;
+	width: 180px;
+}
+
+.rewr #editor .col50-right {
+	display: inline-block;
+	margin-left: 122px;
+}
+
+.rewr #editor .colleft {
+	margin-left: 106px;	
+}
+
+.rewr #editor #ingredients, .rewr #instructions {
+	margin-left: 106px;
+}
+
+.rewr #editor .ingredient-amount {
+	height: 28px;	
+}
+
+.rewr #editor .ingredient-text {
+	width: 500px;
+	height: 28px;
+}
+
+.rewr #editor .instruction-text {
+	width: 686px;
+	height: 28px;
+}
+
+.rewr #editor .label-text {
+	width: 659px;
+	height: 28px;
+}
+
+.rewr #editor .add-temperature-indicator {
+	margin-right: 76px;	
+}
+
+/***/
+/*
+/* OPTIONS
+/*
+/***/
+
+.rewr-options label {
+	display: inline-block;
+	margin-right: 6px;
+	text-align: right;
+	width: 120px;
+}
+
+.rewr-options .radio-labels {
+	display: inline-block;
+	width: 120px;
+}
+
+.rewr-options .longlabel {
+	margin: 4px 0;
+	text-align: left;
+	width: 100%;
+}
+
+/***/
+/*
+/* MISCELLANEOUS
+/*
+/***/
+
+.rewr #message {
+	background-color: #d7f5d6;
+	border: 1px solid #cecece;
+	opacity: 0;
+	padding: 10px 20px;
+}
+
+.rewr input[type=checkbox] {
+	margin-top: -2px;	
+}
+
+.rewr input[readonly] {
+	background-color: #f3f3f3;	
+}
+
+.rewr input.stretch {
+	width: 100%;
+}
+
+.rewr input.tiny {
+	width: 60px;	
+}
+
+.rewr input.small {
+	width: 120px;	
+}
+
+.rewr input.medium {
+	width: 200px;	
+}
+
+.rewr input.large {
+	width: 500px;	
+}
+
+.rewr input.stretch, .rewr select.stretch {
+	width: 100%;
+}
+
+.rewr input.tiny, .rewr select.tiny {
+	width: 60px;	
+}
+
+.rewr input.small, .rewr select.small {
+	width: 120px;	
+}
+
+.rewr input.medium, .rewr select.medium {
+	width: 200px;	
+}
+
+.rewr input.large, .rewr select.large {
+	width: 500px;	
+}
+
+.rewr select {
+	margin: 0 -3px;	
+}
+
+.rewr .moreinfo {
+	color: #1fa64e;
+}
+
+.rewr .label-image {
+	background: url( 'icons/label.png' );
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;	
+}
+
+.rewr .sort-arrow {
+	background: url( 'icons/sort-arrow.png' );
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;	
+}
+
+.rewr .ingredient-measurement {
+	margin: -4px 0 0 3px;
+}
+
+.rewr-rating {
+	margin: 10px 0;	
+}
+
+.rewr-rating-stars {
+	cursor: pointer;	
+}
+
+.rewr-rating-icon {
+	margin: 0;
+	vertical-align: middle;
+}
+
+.rewr-recipe-rating-hide {
+	display: none;	
+}
+
+.rewr-recipe .rewr-rating-icon {
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.rewr-smkfooter {
+	font-size: 0.850em;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.rewr-smkfooter a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.rewr-smkfooter a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.rewr-smkfooter .smkfooter-text {
+	background-color: #1FA64E;
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 4px 8px;
+}
+
+.rewr .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.rewr .clearfix:after { clear: both; }  
+.rewr .clearfix { zoom: 1; }
+
+.rewr-recipe .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.rewr-recipe .clearfix:after { clear: both; }  
+.rewr-recipe .clearfix { zoom: 1; }

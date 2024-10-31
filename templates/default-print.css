@@ -1,0 +1,79 @@
+.rewr-recipe {
+	background-color: #fff;
+	border: 1px dashed #cecece;
+	padding: 10px 0;
+	margin: 0 auto;
+	font-size: 1em;
+	width: 700px;
+}
+
+.rewr-recipe img {
+	border: none;
+	box-shadow: none;
+}
+
+.rewr-recipe h3 {
+	margin-top: 0px;	
+}
+
+.rewr-recipe .smallinfo {
+	border-top: 1px dashed #cecece;
+	border-bottom: 1px dashed #cecece;
+	padding: 20px 0;
+	text-align: center;	
+}
+
+.rewr-recipe .smallinfo-middle {
+	border-left: 1px dashed #cecece;
+	border-right: 1px dashed #cecece;
+}
+
+.rewr-recipe .smallcolumn {
+	display: inline-block;
+	width: 150px;	
+}
+
+.rewr-recipe .name {
+	text-align: center;
+	margin: 10px 0;	
+}
+
+.rewr-recipe .image {
+	float: right;
+}
+
+.rewr-recipe .image img {
+	display: block;
+	margin: 0 auto;
+	margin-left: 6px;
+	margin-right: 24px;
+	height: 200px;
+}
+
+.rewr-recipe .description {
+	padding: 12px;
+	min-height: 100px;
+}
+
+.rewr-recipe .information {
+	float: left;
+	padding: 12px;
+	width: 300px;
+}
+
+.rewr-recipe .ingredients {
+	float: left;
+	padding: 12px;
+}
+
+.rewr-recipe .instructions {
+	padding: 12px;
+}
+
+.rewr-recipe .note {
+	padding: 12px;
+}
+
+.rewr-recipe .url {
+	text-align: center;	
+}

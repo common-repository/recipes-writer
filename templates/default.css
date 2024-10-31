@@ -1,0 +1,97 @@
+.rewr-recipe {
+	background-color: #fff;
+	border: 1px solid #333333;
+	margin-top: 20px;
+	padding: 10px 0;
+	font-size: 1em;
+	width: 100%;
+}
+
+.rewr-recipe img {
+	border: none;
+	box-shadow: none;
+}
+
+.rewr-recipe .share {
+	float: left;
+	text-align: left;
+	padding: 0 10px;
+	width: 50%;
+}
+
+.rewr-recipe .print {
+	float: left;
+	text-align: right;
+	padding: 0 10px;
+	width: 50%;
+}
+
+.rewr-recipe .print-button {
+	background-color: #292929;
+	border-radius: 6px;
+	color: #fff;
+	display: inline-block;
+	font-size: 0.850em;
+	padding: 6px 16px;
+	text-decoration: none;
+}
+
+.rewr-recipe .print-button img {
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.rewr-recipe h3 {
+	margin-top: 0px;	
+}
+
+.rewr-recipe .name {
+	text-align: center;
+	margin: 10px 0;	
+}
+
+.rewr-recipe .image {
+	background-color: #efefef;
+	margin-top: 10px;
+}
+
+.rewr-recipe .image img {
+	display: block;
+	margin: 0 auto;
+	padding: 16px 0;
+}
+
+.rewr-recipe .description {
+	padding: 12px;
+}
+
+.rewr-recipe .information {
+	float: left;
+	padding: 12px;
+	width: 50%;
+}
+
+.rewr-recipe .ingredients {
+	float: left;
+	padding: 12px;
+	width: 50%;
+}
+
+.rewr-recipe .instructions {
+	padding: 12px;
+}
+
+.rewr-recipe .label-ingredients {
+	font-weight: bold;	
+}
+
+.rewr-recipe .label-instructions {
+	font-weight: bold;	
+}
+
+.rewr-recipe .note {
+	padding: 12px;
+}
